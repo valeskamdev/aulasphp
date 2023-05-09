@@ -20,8 +20,11 @@
         } else {
             $novoSalario = $salario * 1.05;
         }
+
+        $formatacaoSalarioAntigo = number_format($novoSalario, 2, ',', '.');
+        $formatacaoNovoSalario = number_format($novoSalario, 2, ',', '.');
     ?>
 
-    <p>Salário antigo: <?=$salario?> | Salário atual: <?=$novoSalario?></p>
+    <p>Salário antigo: R$ <?=$formatacaoSalarioAntigo?> | Salário atual: R$ <?=$formatacaoNovoSalario?></p>
 </body>
 </html>
