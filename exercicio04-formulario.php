@@ -24,13 +24,13 @@
             <label for="fabricante">Fabricante:</label>
             <select name="fabricante" id="fabricante">
                 <option value=""></option>
-            <?php 
-            foreach($fabricantes as $fabricante) {
-            ?>
-            <option><?=$fabricante?></option>
-            <?php
-            }
-            ?>
+                <?php 
+                foreach($fabricantes as $fabricante) {
+                ?>
+                <option><?=$fabricante?></option>
+                <?php
+                }
+                ?>
             </select>
         </p>
 
