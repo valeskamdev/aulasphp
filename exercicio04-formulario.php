@@ -17,12 +17,13 @@
         </p>
 
         <?php 
-        $fabricantes = ["", "Chevrolet ", "Volkswagen ", "Toyota  ", "Renault "]
+        $fabricantes = ["Chevrolet ", "Volkswagen ", "Toyota  ", "Renault "]
         ?>
 
         <p>
             <label for="fabricante">Fabricante:</label>
             <select name="fabricante" id="fabricante">
+                <option value=""></option>
             <?php 
             foreach($fabricantes as $fabricante) {
             ?>
